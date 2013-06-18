@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns     = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.totalonion.com.phonegapbackbone"
+        version   = "0.1.14">
+    <name>Example App</name>
+
+    <description>
+        An example, ready to compile application for PhoneGap Build, built using backbone.js
+    </description>
+
+    <author href="http://www.totalonion.com/" email="opensource@totalonion.com">Total Onion</author>
+
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+    <access origin="http://127.0.0.1*"/>
+    <access origin="http://phonegap.com" subdomains="true" />
+
+    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="orientation"      value="portrait" />
+    <preference name="target-device"    value="universal" />
+    <preference name="fullscreen"       value="false" />
+
+    <icon src="icon.png" />
+    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    
+    <gap:splash src="splash.png" />
+</widget>
