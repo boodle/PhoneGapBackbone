@@ -2,11 +2,11 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.totalonion.com.phonegapbackbone"
-        version   = "0.1.17">
+        version   = "0.1.18">
     <name>Example App</name>
 
     <description>
-        An example, ready to compile application for PhoneGap Build, built using backbone.js
+        A sample ready to compile application for PhoneGap Build, built using backbone.js
     </description>
 
     <author href="http://www.totalonion.com/" email="opensource@totalonion.com">Total Onion</author>
@@ -21,9 +21,32 @@
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
 
+    <!-- default icon -->
     <icon src="icon.png" />
-    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
-    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+
+    <!-- iOS icons -->
+    <icon src="resources/icon/ios/ios_57.png"  gap:platform="ios" width="57" height="57" />
+    <icon src="resources/icon/ios/ios_72.png"  gap:platform="ios" width="72" height="72" />
+    <icon src="resources/icon/ios/ios_114.png" gap:platform="ios" width="114" height="114" />
+    <icon src="resources/icon/ios/ios_144.png" gap:platform="ios" width="144" height="144" />
+
+    <!-- Android icons -->
+    <icon src="resources/icon/android/ldpi.png"  gap:platform="android" gap:density="ldpi" />
+    <icon src="resources/icon/android/mdpi.png"  gap:platform="android" gap:density="mdpi" />
+    <icon src="resources/icon/android/hdpi.png"  gap:platform="android" gap:density="hdpi" />
+    <icon src="resources/icon/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+
+    <!-- Blackberry icons -->
+    <icon src="resources/icon/blackberry/bb_80.png" gap:platform="blackberry" />
+    <icon src="resources/icon/blackberry/bb_80_hover.png" gap:platform="blackberry" gap:state="hover"/>
+
+    <!-- Windows Phone icons -->
+    <icon src="resources/icon/winphone/win_48.png" gap:platform="winphone" />
+    <icon src="resources/icon/winphone/win_173.png" gap:platform="winphone" gap:role="background" />
+
+    <!-- WebOS icons -->
+    <icon src="resources/icon/webos/webos_64.png" gap:platform="webos" />
+    <icon src="resources/icon/webos/webos_32.png" gap:platform="webos" gap:role="mini" />
     
     <gap:splash src="splash.png" />
 </widget>
