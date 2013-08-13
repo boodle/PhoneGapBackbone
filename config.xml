@@ -2,7 +2,7 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.totalonion.com.phonegapbackbone"
-        version   = "0.1.18">
+        version   = "0.1.19">
     <name>Example App</name>
 
     <description>
@@ -16,7 +16,7 @@
     <access origin="http://127.0.0.1*"/>
     <access origin="http://phonegap.com" subdomains="true" />
 
-    <preference name="phonegap-version" value="2.7.0" />
+    <preference name="phonegap-version" value="2.9.0" />
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
